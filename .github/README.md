@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-amplifyuibuilder`](https://www.npmjs.com/package/@aws-sdk/client-amplifyuibuilder/v/3.1135.0).
+[`@aws-sdk/client-amplifyuibuilder`](https://www.npmjs.com/package/@aws-sdk/client-amplifyuibuilder/v/3.1136.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-amplifyuibuilder - [https://cloud-sdk-builds.github.io/?sdk=client-amplifyuibuilder](https://cloud-sdk-builds.github.io/?sdk=client-amplifyuibuilder)
-- @aws-sdk/client-amplifyuibuilder v3.1135.0 - [https://cloud-sdk-builds.github.io/?sdk=client-amplifyuibuilder&version=3.1135.0](https://cloud-sdk-builds.github.io/?sdk=client-amplifyuibuilder&version=3.1135.0)
+- @aws-sdk/client-amplifyuibuilder v3.1136.0 - [https://cloud-sdk-builds.github.io/?sdk=client-amplifyuibuilder&version=3.1136.0](https://cloud-sdk-builds.github.io/?sdk=client-amplifyuibuilder&version=3.1136.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplifyuibuilder@3.1135.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplifyuibuilder@3.1136.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-MeLyO+TcwRHMoERizl9/UzzoigLVWWYY4ndzw8x3j8Mt5zYF9r4GjFnQhT1v54pt
+sha384-hJvjGq8hqP3RLig4+qMwZoTnB5VZV9EFiBy+MZcXoNqBH7lu1pu3X/d3FMdIkKK7
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-amplifyuibuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplifyuibuilder@3.1135.0/index.min.mjs"
+            "@aws-sdk/client-amplifyuibuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplifyuibuilder@3.1136.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplifyuibuilder@3.1135.0/index.min.mjs": "sha384-MeLyO+TcwRHMoERizl9/UzzoigLVWWYY4ndzw8x3j8Mt5zYF9r4GjFnQhT1v54pt"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplifyuibuilder@3.1136.0/index.min.mjs": "sha384-hJvjGq8hqP3RLig4+qMwZoTnB5VZV9EFiBy+MZcXoNqBH7lu1pu3X/d3FMdIkKK7"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-amplifyuibuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplifyuibuilder@3.1135.0/index.min.mjs"
+                        "@aws-sdk/client-amplifyuibuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplifyuibuilder@3.1136.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplifyuibuilder@3.1135.0/index.min.mjs": "sha384-MeLyO+TcwRHMoERizl9/UzzoigLVWWYY4ndzw8x3j8Mt5zYF9r4GjFnQhT1v54pt"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplifyuibuilder@3.1136.0/index.min.mjs": "sha384-hJvjGq8hqP3RLig4+qMwZoTnB5VZV9EFiBy+MZcXoNqBH7lu1pu3X/d3FMdIkKK7"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1135.0`)
+* Always pin to a specific version (`@3.1136.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-amplifyuibuilder/blob/refs/tags/3.1135.0/LICENSE
+https://github.com/cloud-sdk-builds/client-amplifyuibuilder/blob/refs/tags/3.1136.0/LICENSE
 ```
 
 ---
